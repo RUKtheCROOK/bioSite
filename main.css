@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    border: solid 1px black;
+}
+
+.pageTop {
+    display: flex;
+
+}
+
+.headNavContainer {
+    border: solid 1px black;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    header{
+        margin-top: 60px;
+        margin-bottom: 21px;
+    }
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: pink;
+    justify-content: flex-end;
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-left: 2px;
+    }
+}
+
+.pageSubstance {
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.child {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: solid 1px black;
+}
+
+/* for the hobbies page */
+.hobbies .pageSubstance .cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.hobbies .cardContainerChild {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies .child {
+    width: 100%;
+    height: 100%;
+}
+
+.goals .child {
+    width: 100%;
+}
