@@ -1,73 +1,166 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+  
+  .heart {
+    font-size: 200px; /* Adjust font size as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    background-image: url('images/mc-logo.png');
+    background-size: 200px 170px;
+    background-clip: text;
+    -webkit-text-stroke: 5px #FFB3C6;
+}
+  
 body {
     margin: 0;
     padding: 0;
 }
 
+header {
+    margin-left: -20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    font-weight: 700;
+    color: #FB6F92;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.pink {
+    color: #FB6F92;
+
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    border-bottom: solid 1px black;
+}
 .mainContainer {
     display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #FFB3C6;
 }
-
 img {
-    width: 140px;
-    height: 140px;
-    border: solid 1px black;
+    width: 187px;
+    height: 187px;
 }
 
 .pageTop {
     display: flex;
-
 }
 
 .headNavContainer {
-    border: solid 1px black;
+    border: solid 1px #FFE5EC;
     width: 100%;
     height: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: #FFE5EC;
+    padding-bottom: 45px;
     header{
-        margin-top: 60px;
-        margin-bottom: 21px;
+        margin-top: 40px;
     }
 }
 
 .navbar {
     display: flex;
     width: 100%;
-    background-color: pink;
     justify-content: flex-end;
     a{
+        background-color: white;
         text-decoration: none;
         color: black;
         padding: 10px;
-        border: 1px solid black;
+        border: 1px solid white;
         border-radius: 10px;
         margin-left: 2px;
+        margin-right: 2px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    a:hover{
+        background-color: #FFB3C6;
     }
 }
 
 .pageSubstance {
     text-align: center;
     width: 100%;
+    background: linear-gradient(0deg, #FFB3C6 60%, #FFE5EC 100%);
+    margin-top: -34px;
 }
 
 .container {
     display: flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
 }
 
 .child {
     padding-left: 5px;
     padding-right: 5px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 5px;
+    margin-top: auto;  
+    margin-bottom: auto;
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        font-weight: 700;
+        color: #FB6F92;
+    }
+    p{
+        font-size: 25px;
+    }
+    li{
+        font-size: 25px;
+    }
 }
 
+.index .child img {
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
+.about .child img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
+.hobbies .child img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    margin: 3px;
+}
+.goals .child img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
 footer {
+    margin-top: 20px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +168,13 @@ footer {
     height: 100px;
     width: 100%;
     background-color: #f2f2f2;
-    border-top: solid 1px black;
+    border-top: solid 1px white;
+    p{
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
 }
 
 /* for the hobbies page */
