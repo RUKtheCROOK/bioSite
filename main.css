@@ -1,201 +1,209 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
-  
-  .heart {
-    font-size: 200px; /* Adjust font size as needed */
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: transparent;
-    background-image: url('images/mc-logo.png');
-    background-size: 200px 170px;
-    background-clip: text;
-    -webkit-text-stroke: 5px #FFB3C6;
+.heart {
+  font-size: 200px; /* Adjust font size as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  background-image: url("images/mc-logo.png");
+  background-size: 200px 170px;
+  background-clip: text;
+  -webkit-text-stroke: 5px #ffb3c6;
 }
-  
+
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    margin-left: -20px;
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
-    font-weight: 700;
-    color: #FB6F92;
-    background-color: white;
-    border-radius: 50px;
-    padding: 10px;
+  margin-left: -20px;
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  font-weight: 700;
+  color: #fb6f92;
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
 }
 
 .pink {
-    color: #FB6F92;
-
+  color: #fb6f92;
 }
 h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
-    font-weight: 700;
-    border-bottom: solid 1px black;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  border-bottom: solid 1px black;
 }
 .mainContainer {
-    display: flex;
+  display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #FFB3C6;
-}
-img {
-    width: 187px;
-    height: 187px;
+  background-color: #ffb3c6;
 }
 
 .pageTop {
-    display: flex;
+  display: flex;
 }
 
 .headNavContainer {
-    border: solid 1px #FFE5EC;
-    width: 100%;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFE5EC;
-    padding-bottom: 45px;
-    header{
-        margin-top: 40px;
-    }
+  border: solid 1px #ffe5ec;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe5ec;
+  padding-bottom: 45px;
+  header {
+    margin-top: 40px;
+  }
 }
 
 .navbar {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    a{
-        background-color: white;
-        text-decoration: none;
-        color: black;
-        padding: 10px;
-        border: 1px solid white;
-        border-radius: 10px;
-        margin-left: 2px;
-        margin-right: 2px;
-        font-family: 'Dancing Script', cursive;
-        font-size: 20px;
-        font-weight: 700;
-    }
-    a:hover{
-        background-color: #FFB3C6;
-    }
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  a:hover {
+    background-color: #ffb3c6;
+  }
 }
 
 .pageSubstance {
-    text-align: center;
-    width: 100%;
-    background: linear-gradient(0deg, #FFB3C6 60%, #FFE5EC 100%);
-    margin-top: -34px;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(0deg, #ffb3c6 60%, #ffe5ec 100%);
+  margin-top: -34px;
 }
 
 .container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }
 
 .child {
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: white;
-    border-radius: 30px;
-    margin: 5px;
-    margin-top: auto;  
-    margin-bottom: auto;
-    h2 {
-        font-family: 'Dancing Script', cursive;
-        font-size: 40px;
-        font-weight: 700;
-        color: #FB6F92;
-    }
-    p{
-        font-size: 25px;
-    }
-    li{
-        font-size: 25px;
-    }
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 5px;
+  width: 100%;
+  /* margin-top: auto;  
+    margin-bottom: auto; */
+  box-shadow: 0px 0px 20px 0px #ffb3c6;
+  h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fb6f92;
+  }
+  p {
+    font-size: 25px;
+  }
+  li {
+    font-size: 25px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  .answer {
+    font-size: 25px;
+    background-color: #ffe5ec;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+
+.childImg {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: 0px 0px 20px 0px #ffb3c6;
 }
 
 .index .child img {
-    width: 200px;
-    height: 300px;
-    border-radius: 40px;
-    padding-top: 6px;
-    padding-bottom: 2px;
+  width: 187px;
+  height: 187px;
+  border: solid 5px #ffb3c6;
+  border-radius: 40px;
+  margin-bottom: 3px;
 }
-.about .child img {
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    padding-top: 6px;
-    padding-bottom: 2px;
+.about .childImg img {
+  width: 300px;
+  height: 270px;
+  border-radius: 40px;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .hobbies .child img {
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    padding-top: 6px;
-    padding-bottom: 2px;
-    margin: 3px;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  margin: 3px;
 }
 .goals .child img {
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    padding-top: 6px;
-    padding-bottom: 2px;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  padding-top: 6px;
+  padding-bottom: 2px;
 }
 footer {
-    margin-top: 20px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-    background-color: #f2f2f2;
-    border-top: solid 1px white;
-    p{
-        font-family: 'Dancing Script', cursive;
-        font-size: 20px;
-        font-weight: 700;
-        
-    }
+  margin-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-top: solid 1px white;
+  p {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
 
-/* for the hobbies page */
-.hobbies .pageSubstance .cardContainer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 0 auto;
+.hobbies .pageSubstance .cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .hobbies .cardContainerChild {
-    display: flex;
-    justify-content: center;
-}
-
-.hobbies .child {
-    width: 100%;
-    height: 100%;
-}
-
-.goals .child {
-    width: 100%;
+  display: flex;
+  justify-content: center;
 }
