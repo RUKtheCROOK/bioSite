@@ -198,12 +198,43 @@ footer {
 .hobbies .pageSubstance .cardContainer {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 99%;
   flex-wrap: wrap;
-  margin: 0 auto;
+  height: 80%;
 }
 
 .hobbies .cardContainerChild {
   display: flex;
   justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#long-text {
+  li {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+#nails-pink-yingyang {
+  height: auto;
+  width: 100%;
+}
+
+#goals-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  img {
+   width: auto;
+  }
+}
+
+#fitness-img {
+width: 99%;
+height: auto;
+max-height: 800px;
 }
